@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include trfmgmt *.css
+recursive-include trfmgmt *.csv
+recursive-include trfmgmt *.html
+recursive-include trfmgmt *.ico
+recursive-include trfmgmt *.js
+recursive-include trfmgmt *.json
+recursive-include trfmgmt *.md
+recursive-include trfmgmt *.png
+recursive-include trfmgmt *.py
+recursive-include trfmgmt *.svg
+recursive-include trfmgmt *.txt
+recursive-exclude trfmgmt *.pyc
